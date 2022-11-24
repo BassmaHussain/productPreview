@@ -1,0 +1,30 @@
+.qr-cont{
+    background-color: rgb(94, 93, 93);
+    padding: 30px 0;
+}
+.qr-cont .qr{
+    background-color: #fff;
+    border-radius: 20px;
+    height: auto;
+    width: 450px;
+    padding: 20px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    
+}
+.qr-cont .qr .qr_img img{
+    width: 100%;
+    height: 350px;
+}
+.qr-cont .qr .datails p{
+    font-size: 18px;
+    color: rgb(124, 124, 124);
+}
+@media(max-width:768px){
+    .qr-cont .qr{
+        width: 90%;
+    }
+}

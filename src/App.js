@@ -1,10 +1,10 @@
 
-import Product from "./components/Product"
+import  QrComponent from "./components/QrComponent"
 
 function App() {
   return (
     <div className="App">
-      <Product />
+      <QrComponent />
     </div>
   );
 }
